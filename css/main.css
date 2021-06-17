@@ -1,69 +1,87 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #EFEFEF;
-  color:white;
-  font-size: 22px;;
+  background-color: powderblue;
+  color: white;
+  font-size: 22px;
+  ;
 }
 
-#container{
-  display:grid;
+#container {
+  display: grid;
   border: 1px solid red;
-  grid-template-columns: 1fr 6fr 10fr 1fr ;
-  grid-template-rows: 15vh 10vh 20vh 40vh 15vh ;
+  grid-template-columns: 1fr 6fr 10fr 1fr;
+  grid-template-rows: 15vh 10vh 20vh 40vh 15vh;
 }
 
-#container .celda1{
+#container .titulo {
   padding: 9px;
-  background-color:#a60573;
+  background-color: #a60573;
   border-radius: 5px;
-  grid-column: 1/5 ;
-  grid-row: 1/2 ;
+  grid-column: 1/5;
+  grid-row: 1/2;
   text-align: center;
 }
 
-#container .celda2{
+#container .titulo h1 {
+  color: #000000;
+}
+
+#container .subtitulo {
   padding: 9px;
-  background-color:#596ac3;
+  background-color: #a60573;
   border-radius: 5px;
-  grid-column: 1/5 ;
-  grid-row: 2/3 ;
+  grid-column: 1/5;
+  grid-row: 2/3;
   text-align: center;
-
 }
 
-#container .celda3{
-  padding: 9px;
-  background-color:#97bc27;
-  border-radius: 5px;
-  grid-column: 2/3 ;
-  grid-row: 3/5 ;
+#container .subtitulo p {
+  color: #000000;
 }
 
-#container .celda4{
+#container .texto {
   padding: 9px;
-  background-color:#ff9800;
   border-radius: 5px;
-  grid-column: 3/4 ;
-  grid-row:3/4 ;
+  grid-column: 3/4;
+  grid-row: 4/5;
 }
 
-#container .celda5{
+#container .foto {
   padding: 9px;
-  background-color:#ff3700;
   border-radius: 5px;
-  grid-column:4/5 ;
-  grid-row:3/4 ;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
-#container .celda6{
+#container .pagina {
   padding: 9px;
-  background-color:#459800;
   border-radius: 5px;
-  grid-column: 1/5 ;
-  grid-row:5/6 ;
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+#container .celda5 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+#container .texto2 {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+#container .pie {
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/5;
+  grid-row: 5/6;
 }
